@@ -1,0 +1,57 @@
+DOMINI:
+http://www.arsys.es/
+Usuari: jsalord@ono.com
+Contrasenya: 123456cB
+
+GITHUB
+raranamorera
+starcraf4ever
+
+GMAIL
+clubbasquetcic@gmail.com	
+323cbcic323
+
+TWITTER
+clubbasquetcic
+323cbcic323
+
+INSTAGRAM
+@cbcic
+323cbcic323
+
+OPENSHIFT
+clubbasquetcic@gmail.com	
+323cbcic323
+
+MySQL 5.5 database added.  Please make note of these credentials:
+
+   Root User: adminzMMsutR
+   Root Password: wX483bHUPbmy
+   Database Name: clubbasquetcic
+
+Connection URL: mysql://$OP
+NSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
+
+rhc port-forward -a clubbasquetcic
+Obrir connexiÃ³ per MySQLWorkbench
+Import dump...
+
+Per logs:
+rhc tail -a clubbasquetcic 
+
+
+
+
+ssh into your gear
+cd git
+rm -rf [appname].git # this will remove all files except for the [appname].git/hooks directory and it's files
+cd [appname].git
+git init --bare
+exit this ssh session
+cd into your locally cloned directory
+rm -rf .git #comando de windows desde casa
+git init
+git remote add origin [git repo url from your control panel]
+git add .
+git commit -am "initial commit"
+git push origin master
