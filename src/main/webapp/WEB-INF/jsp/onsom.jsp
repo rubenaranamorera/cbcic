@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +12,8 @@
 
 <title>CBCIC</title>
 <meta name="description"
-	content="CBCIC website">
+	content="text/html; charset=ISO-8859-1">
+
 </head>
 
 <body onLoad="initialize()">		
@@ -23,8 +25,8 @@
 	      	<div class="bs-docs-section" >
 	      		<h2 id="onSom" class="page-header" style="font-style:italic;">On som</h2>	      		 
 	      		 <div class="row">			
-	      		 <p style="margin-top:10px;">Els equips del club, juguen al pavelló Infant Jesús, situat a Travessera de Gràcia entre Aribau i Tusset.</p>      
-	      		 <p>En concret, el pavelló s'ubica a <strong>Travessera de Gràcia 57-63</strong>, 08006 Barcelona</p>     
+	      		 <p style="margin-top:10px;">Els equips del club, juguen al pavelló Infant Jesús, situat a Travessera de Gràcia entre Aribau i Tusset.</p>
+	      		 <p>En concret, el pavelló s'ubica a <strong>Travessera de Gràcia 57-63</strong>, 08006 Barcelona</p>
       			 	<div class="col-xs-8 col-xs-offset-2" style="margin-bottom:30px;margin-top:30px;" >
       			 		<div id="googleMap" style="width:100%;height:400px;"></div>	  
       			 	</div>

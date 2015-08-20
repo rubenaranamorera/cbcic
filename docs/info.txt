@@ -40,6 +40,8 @@ Per logs:
 rhc tail -a clubbasquetcic 
 
 
+Copiar directe el war a openshift
+scp git/openshift/webapps/ROOT.war 5516a1a0fcf933f3f500012a@cic-cbcic.rhcloud.com:~/app-root/dependencies/jbossews/webapps
 
 
 ssh into your gear
