@@ -43,6 +43,7 @@ public class DAONoticies {
 				noticia.setTitol(result.getString("titol"));
 				noticia.setPortada(result.getBoolean("isPortada"));
 				noticia.setKeywords(result.getString("keywords"));
+				noticia.setOwner(result.getString("owner"));
 			}
 		}
 		catch(Exception e){

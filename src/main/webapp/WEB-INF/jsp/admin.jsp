@@ -13,15 +13,22 @@
 	content="CBCIC website">
 </head>
 
-<body>		
-	<div class="container">	
-	
-		<%@ include file="header.jsp" %>
+<body>
+	<div class="container main-container">
+	    <%@ include file="header.jsp" %>
 
-		<a class="btn btn-default btn-lg" href="/login/logout" >Sortir</a>
+        <div class="container-fluid">
+            <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12" style="text-align: center;">
+            	LOGADOOOOO!!!
+                <a class="btn btn-default btn-lg" href="/login/logout" >Sortir</a>
 
-		LOGADOOOOO!!!
+            </div>
+        </div>
+
+	    <%@ include file="footer.jsp" %>
+
 	</div>
+
 </body>
 
 <script src="http://code.jquery.com/jquery.js"></script>

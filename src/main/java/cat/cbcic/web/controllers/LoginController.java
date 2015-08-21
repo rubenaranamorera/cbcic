@@ -1,6 +1,7 @@
 package cat.cbcic.web.controllers;
 
 
+import cat.cbcic.web.lao.LAOLogin;
 import cat.cbcic.web.lao.LAONoticies;
 import cat.cbcic.web.models.Noticia;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +16,12 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 public class LoginController {
-	
+
+
+    @Autowired
+    private LAOLogin laoLogin;
+
+
 	@RequestMapping("/login")
 	public String index(Model model, @RequestParam(value="error",required=false, defaultValue = "false"  ) String error) {
 
@@ -33,7 +39,7 @@ public class LoginController {
             String user = request.getParameter("usuari");
             String password = request.getParameter("password");
 
-            if (user.equals("admin") && password.equals("admin")) {
+            if (laoLogin.checkUserAndPassword(user, password)) {
                 session.setAttribute("cbcic_user", user);
                 response.sendRedirect("/admin");
             } else {

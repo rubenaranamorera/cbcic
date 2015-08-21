@@ -14,34 +14,40 @@
 </head>
 
 <body>		
-	<div class="container">	
-	
-		<%@ include file="header.jsp" %>
+	<div class="container main-container">
+	    <%@ include file="header.jsp" %>
+
+        <div class="container-fluid">
+            <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12" style="text-align: center; margin-top:30px; margin-bottom:30px;">
+
+               <c:if test="${error}">
+                    <div class="alert alert-danger" role="alert" style="margin-bottom:10px;">
+                     <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                     <span class="sr-only">Error</span>
+                     Usuari o contrasenya incorrectes
+                   </div>
+               </c:if>
 
 
-		</form action="login" method="POST">
-           </input type="text" name="user" value="usuario">
-           </input type="password" name="password" value="contraseña">
-           </input type="submit" value="Enviar">
-        </form>
+                <form action="/login/login" method"POST">
+                    <div class="form-group">
+                        <label for="usuari">Usuari</label>
+                        <input type="text" class="form-control" id="usuari" name="usuari" placeholder="User">
+                    </div>
 
-		<form action="/login/login" method"POST">
-			<ul>
-				<li>
-					<label for="usuari">Usuari:<label/>
-                    <input type="text" name="usuari"></input>
-				</li>
-				<li>
-					<label for="password">Password:<label/>
-                    <input type="password" name="password"></input>
-				</li>
-			</ul>
-			<button class="btn btn-default btn-lg" type="submit">Entrar</a>
-		</form>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                    </div>
 
-		<div>
-			<p>Error: ${error}</p>
-		</div>
+                    <button type="submit" class="btn btn-default">Entrar</button>
+          		</form>
+
+
+            </div>
+        </div>
+
+	    <%@ include file="footer.jsp" %>
 
 	</div>
 </body>

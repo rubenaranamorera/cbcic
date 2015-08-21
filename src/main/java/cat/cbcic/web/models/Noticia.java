@@ -16,6 +16,7 @@ public class Noticia {
 	private boolean isCronica;
 	private boolean isPortada;
 	private String keywords;
+    private String owner;
 	private String dia;
 	private String mes;
 	private String any;
@@ -76,6 +77,8 @@ public class Noticia {
 	public void setKeywords(String keywords) {
 		this.keywords = keywords;
 	}
+    public String getOwner() {return owner;}
+    public void setOwner(String owner) { this.owner = owner;}
 	public String getDia() {		
 		if (dia!=null && !"".equals(dia)){
 			return dia;

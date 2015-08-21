@@ -27,17 +27,17 @@ MySQL 5.5 database added.  Please make note of these credentials:
 
    Root User: adminzMMsutR
    Root Password: wX483bHUPbmy
-   Database Name: clubbasquetcic
+   Database Name: cbcic
 
 Connection URL: mysql://$OP
 NSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
 
-rhc port-forward -a clubbasquetcic
+rhc port-forward -a cic
 Obrir connexiÃ³ per MySQLWorkbench
 Import dump...
 
 Per logs:
-rhc tail -a clubbasquetcic 
+rhc tail -a cic
 
 
 Copiar directe el war a openshift
