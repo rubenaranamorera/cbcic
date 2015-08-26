@@ -1,3 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
@@ -23,17 +24,16 @@
 		
 		
             <ul class="nav navbar-nav">
-              <li id="noticiesNav"><a href="noticies">Notícies</a></li>
-	            <li id="croniquesNav"><a href="croniques">Cròniques</a></li>
+              <li id="noticiesNav"><a href="noticies">NotÃ­cies</a></li>
+	            <li id="croniquesNav"><a href="croniques">CrÃ²niques</a></li>
 	            <li id="equipsNav" class="dropdown">
 	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Equips<span class="caret"></span></a>
 	              <ul class="dropdown-menu" role="menu">
-	                <li><a href="senioramasc">Sènior A Masc</a></li>
-	                <li><a href="seniorbmasc">Sènior B Masc</a></li>
-	                <li><a href="seniorcmasc">Sènior C Masc</a></li>
-	                <li><a href="juniormasc">Júnior Masc</a></li>
-	                <li><a href="seniorafem">Sènior A Fem</a></li>
-	                <li><a href="seniorbfem">Sènior B Fem</a></li>
+	                <li><a href="senioramasc">SÃ¨nior A Masc</a></li>
+	                <li><a href="seniorbmasc">SÃ¨nior B Masc</a></li>
+	                <li><a href="juniormasc">JÃºnior Masc</a></li>
+	                <li><a href="seniorafem">SÃ¨nior A Fem</a></li>
+	                <li><a href="seniorbfem">SÃ¨nior B Fem</a></li>
 	                <li><a href="sots21fem">Sots-21 Fem</a></li>
 	                <li><a href="veterans">Veterans</a></li>
 	              </ul>
@@ -42,7 +42,7 @@
 	            <li id="resultatsNav"><a href="resultats">Resultats</a></li --%>
 	            <li id="contactaNav"><a href="contacta">Contacta</a></li>
 	            <li id="onsomNav"><a href="onsom">On Som</a></li>
-	            <li id="historiaNav"><a href="historia">Història</a></li>
+	            <li id="historiaNav"><a href="historia">HistÃ²ria</a></li>
             </ul>
             <div style="float: right; margin-right: 10px; margin-top: 10px;">
 	        	<a href="https://twitter.com/ClubBasquetCIC" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ClubBasquetCIC</a>

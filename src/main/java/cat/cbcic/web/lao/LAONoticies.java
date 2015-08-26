@@ -45,5 +45,26 @@ public class LAONoticies {
 		}		
 		return totalpagines;
 	}
-	
+
+	public List<Noticia> getNoticiesByOwner(String user) {
+		List<Noticia> noticiesList = daoNoticies.getNoticiesByOwner(user);
+		return noticiesList;
+	}
+
+    public List<Noticia> getAllNoticies() {
+        List<Noticia> noticiesList = daoNoticies.getAllNoticies();
+        return noticiesList;
+    }
+
+	public boolean crearNoticia(Noticia noticia){
+		return daoNoticies.crearNoticia(noticia);
+	}
+
+	public boolean updateNoticia(Noticia noticia){
+		return daoNoticies.updateNoticia(noticia);
+	}
+
+	public boolean deleteNoticia(Noticia noticia){
+		return daoNoticies.deleteNoticia(noticia);
+	}
 }

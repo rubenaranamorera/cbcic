@@ -48,14 +48,7 @@ public class EquipsController {
 	public String seniorbmasc (Model model) {
 		model.addAttribute("navActive", "equipsNav");
 		model = getInfo(model, LAOEquips.EQUIP_SENIOR_B_MASC);
-		return "equips";		
-	}
-	
-	@RequestMapping("/seniorcmasc")
-	public String seniorcmasc(Model model) {
-		model.addAttribute("navActive", "equipsNav");
-		model = getInfo(model, LAOEquips.EQUIP_SENIOR_C_MASC);
-		return "equips";		
+		return "equips";
 	}
 	
 	@RequestMapping("/juniormasc")

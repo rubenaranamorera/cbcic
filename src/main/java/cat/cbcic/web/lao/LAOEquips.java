@@ -11,7 +11,6 @@ public class LAOEquips {
 	
 	public static int EQUIP_SENIOR_A_MASC = 1;
 	public static int EQUIP_SENIOR_B_MASC = 2;
-	public static int EQUIP_SENIOR_C_MASC = 3;
 	public static int EQUIP_JUNIOR_MASC = 4;
 	public static int EQUIP_SENIOR_A_FEM = 5;
 	public static int EQUIP_SENIOR_B_FEM = 6;

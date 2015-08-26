@@ -14,4 +14,13 @@ public class LAOLogin {
 		return daoUsers.checkUserAndPassword(user, password);
 	}
 
+	public boolean isSuperAdmin(String user){
+		return daoUsers.isSuperAdmin(user);
+	}
+
+	public boolean createUser(String user, String password,boolean admin, boolean superAdmin, String email){
+
+		return daoUsers.createUser(user, password, admin, superAdmin, email);
+	}
+
 }
