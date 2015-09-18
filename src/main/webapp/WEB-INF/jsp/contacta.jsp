@@ -19,19 +19,19 @@
 	      	<div class="bs-docs-section">
 	      		<h2 id="novetats" class="page-header" style="font-style:italic;">Contacta</h2>	   
 	      		
-	      		<p>No dubtis a posar-te en contacte amb nosaltres sobre qualsevol qÃ¼estiÃ³, estem a la teva disposiciÃ³:</p>
+	      		<p>No dubtis a posar-te en contacte amb nosaltres sobre qualsevol qüestió, estem a la teva disposició:</p>
 	      		<ul style="margin-bottom: 50px">
 	      			<li style="margin-top:10px; margin-bottom: 10px">
 	      				<img src="resources/img/contacta/pelota.png" style="width:80px; height:80px; margin-right:10px;">
-	      				Per temes <strong>esportius masculins</strong> contacta amb <strong>Paco LÃ³pez</strong> (699690738 - <a href="mailto:pacolopez8@hotmail.com" target="_top">pacolopez8@hotmail.com</a>) o amb <strong>RubÃ¨n Arana</strong> (699611786 - <a href="mailto:ruarmo@hotmail.com" target="_top">ruarmo@hotmail.com</a>) en el cas de temes <strong>esportius femenins</strong></p>
+	      				Per temes <strong>esportius masculins</strong> contacta amb <strong>Paco López</strong> (699690738 - <a href="mailto:pacolopez8@hotmail.com" target="_top">pacolopez8@hotmail.com</a>) o amb <strong>Rubèn Arana</strong> (699611786 - <a href="mailto:ruarmo@hotmail.com" target="_top">ruarmo@hotmail.com</a>) en el cas de temes <strong>esportius femenins</strong></p>
 	      			</li>
 	      			<li style="margin-top:10px; margin-bottom: 10px">
 	      				<img src="resources/img/contacta/papeles.jpg" style="width:80px; height:80px; margin-right:10px;">	      			
-	      				Per temes <strong>administratius</strong> contacta amb <strong>Ferran MartÃ­n</strong> (619425439 - <a href="mailto:ferran510@hotmail.com" target="_top">ferran510@hotmail.com</a>)
+	      				Per temes <strong>administratius</strong> contacta amb <strong>Ferran Martín</strong> (619425439 - <a href="mailto:ferran510@hotmail.com" target="_top">ferran510@hotmail.com</a>)
 	      			</li>
 	      			<li style="margin-top:10px; margin-bottom: 10px">
 	      				<img src="resources/img/contacta/web.jpg" style="width:80px; height:80px; margin-right:10px;">	      				
-	      				Per temes referents a la <strong>web</strong> contacta amb <strong>RubÃ¨n Arana</strong> (699611786 - <a href="mailto:ruarmo@hotmail.com" target="_top">ruarmo@hotmail.com</a>)
+	      				Per temes referents a la <strong>web</strong> contacta amb <strong>Rubèn Arana</strong> (699611786 - <a href="mailto:ruarmo@hotmail.com" target="_top">ruarmo@hotmail.com</a>)
 	      			</li>  			
 	      		</ul>
 	      		<p><strong></strong></p>	      		

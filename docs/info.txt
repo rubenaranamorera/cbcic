@@ -43,6 +43,8 @@ rhc tail -a cic
 Copiar directe el war a openshift
 scp git/openshift/webapps/ROOT.war 5516a1a0fcf933f3f500012a@cic-cbcic.rhcloud.com:~/app-root/dependencies/jbossews/webapps
 
+Restart app
+rhc app restart -a cic
 
 ssh into your gear
 cd git
