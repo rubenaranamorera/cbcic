@@ -18,102 +18,102 @@
 	      
 	      <div class="container-fluid">
 	      	<div class="bs-docs-section">
-	      	    <div>
+	      	    <div class="col-md-12 col-sm-12 col-xs-12">
                     <h2 class="page-header" style="font-style:italic;">Cross</h2>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Cross1.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Cross1.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Cross2.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Cross2.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Cross3.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Cross3.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Cross3.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Cross4.jpg">
                     </div>
-                <div>
+                </div>
 
-                <div>
+	      	    <div class="col-md-12 col-sm-12 col-xs-12">
                     <h2 class="page-header" style="font-style:italic;">Stack</h2>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Stack1.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Stack1.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Stack2.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Stack2.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Stack3.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Stack3.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Stack4.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Stack4.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Stack5.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Stack5.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Stack6.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Stack6.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Stack7.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Stack7.jpg">
                     </div>
-                <div>
+                </div>
 
-                <div>
+	      	    <div class="col-md-12 col-sm-12 col-xs-12">
                     <h2 class="page-header" style="font-style:italic;">Fons</h2>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Fons1.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Fons1.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Fons2.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Fons2.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Fons3.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Fons3.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Fons3.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Fons4.jpg">
                     </div>
-                <div>
+                </div>
 
-                <div>
+	      	    <div class="col-md-12 col-sm-12 col-xs-12">
                     <h2 class="page-header" style="font-style:italic;">Anti</h2>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Anti1.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Anti1.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Anti2.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Anti2.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Anti3.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Anti3.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Anti4.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Anti4.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Anti5.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Anti5.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Anti6.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Anti6.jpg">
                     </div>
-                <div>
+                </div>
 
-                <div>
+	      	    <div class="col-md-12 col-sm-12 col-xs-12">
                     <h2 class="page-header" style="font-style:italic;">Zona</h2>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Zona1.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Zona1.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Zona2.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Zona2.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Zona3.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Zona3.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-                        <img style="max-width:100%;width:100%; max-height:200px; height:200px; margin-bottom:10px;" src="resources/img/plays/Zona4.jpg">
+                        <img style="max-width:100%;width:100%; max-height:300px; height:300px; margin-bottom:10px;" src="resources/img/plays/Zona4.jpg">
                     </div>
-                <div>
+                </div>
 
-                <div>
+	      	    <div class="col-md-12 col-sm-12 col-xs-12">
                     <h2 class="page-header" style="font-style:italic;">Sortida</h2>
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
                         <img style="max-width:100%;width:100%; max-height:400px; height:400px; margin-bottom:10px;" src="resources/img/plays/Sortida1.jpg">
@@ -124,7 +124,7 @@
                     <div class="col-md-4 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
                         <img style="max-width:100%;width:100%; max-height:400px; height:400px; margin-bottom:10px;" src="resources/img/plays/Sortida3.jpg">
                     </div>
-                <div>
+                </div>
 
              </div>
 
