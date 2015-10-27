@@ -57,6 +57,9 @@ public class LAONoticies {
     }
 
 	public boolean crearNoticia(Noticia noticia){
+
+
+
 		return daoNoticies.crearNoticia(noticia);
 	}
 

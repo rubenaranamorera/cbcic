@@ -5,7 +5,7 @@
 <%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
 <%@ taglib prefix="x" uri="http://java.sun.com/jsp/jstl/xml" %>
 <link href="resources/css/general.css" rel="stylesheet" type="text/css">
-<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="icon" href="resources/mytheme/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 <div class="navbar navbar-inverse" style="margin-top:15px;" >	

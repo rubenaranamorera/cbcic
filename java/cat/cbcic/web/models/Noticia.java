@@ -170,10 +170,6 @@ public class Noticia {
 				
 		long time = System.currentTimeMillis() - dataCreacio.getTime();
 		
-		System.out.println("CurrentTimeMillis: " + System.currentTimeMillis());
-		System.out.println("Data creació: " + dataCreacio.getTime());
-		System.out.println("Time: " + time);
-		
 		if (time < (3600000 * 24)){
 			timeAgo = "Fa menys d'un dia";
 		}
