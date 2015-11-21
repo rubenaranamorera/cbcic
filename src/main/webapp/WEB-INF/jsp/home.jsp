@@ -4,10 +4,9 @@
 <meta name="google-site-verification" content="J-DfwW20slq2JXv7ZN4FfY_8rm-ickkxZqPDF1tbVS4" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"	rel="stylesheet">
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
 <script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
+
 <title>CBCIC</title>
 <meta name="description"
 	content="CBCIC website">
@@ -47,7 +46,7 @@
 	          <img class="img-carousel" src="resources/img/home/seniorAfem.jpg" alt="Third slide" style="height:275px;">
 	          <div class="container">
 	            <div class="carousel-caption">
-	              <h1>Força</h1>     
+	              <h1>Força</h1>
 	            </div>
 	          </div>
 	        </div>
@@ -68,7 +67,7 @@
 	        <div class="col-md-4 col-sm-12 col-xs-12" style="text-align: center;">
 	       		<span class="glyphicon glyphicon-eye-open" style="font-size:6em; text-align: center;"></span>
 	          <h2 style="text-align: center;">Informa't</h2>
-	          <p>No et perdis l'actualitat del CB CIC! viu els útims partits amb les cròniques, assabenta't de les últimes novetats i coneix tots els horaris de la setmana</p>	     	
+	          <p>No et perdis l'actualitat del CB CIC! viu els útims partits amb les cròniques, assabenta't de les últimes novetats i coneix tots els horaris de la setmana</p>
 	        </div>
 	        <div class="col-md-4 col-sm-12 col-xs-12" style="text-align: center;">
 	        	<span class="glyphicon glyphicon-user" style="font-size:6em; text-align: center;"></span>
@@ -90,11 +89,11 @@
      			 			<a href="article?idNoticia=${noticia.idNoticia}"> 
       			 			<img class="img-border" style="max-width:100%;width:100%; max-height:500px; height:auto;" src="${noticia.fotoUrl}">
       			 		</a>
-      			 		<a href="article?idNoticia=${noticia.idNoticia}"> 
-      			 			<h3 style="text-align: center;">${noticia.titol}</h3>
+      			 		<a class="black bold" href="article?idNoticia=${noticia.idNoticia}">
+      			 			<h3>${noticia.titol}</h3>
       			 		</a>
-      			 		<a href="article?idNoticia=${noticia.idNoticia}"> 
-      			 			<p style="text-align: center;">${noticia.resum}</p>
+      			 		<a class="black" href="article?idNoticia=${noticia.idNoticia}">
+      			 			<p class="lines3" style="text-align: center;">${noticia.resum}</p>
       			 		</a>
       			 	</div>  	
 	      			<div class="col-md-4 col-sm-4 col-xs-12" style="margin-bottom:30px;" >
@@ -105,14 +104,14 @@
       				
       				<c:forEach var="noticia" items="${noticiesList}" varStatus="counter">      			 		
       			 		<div class="col-md-6 col-sm-6 col-xs-12" style="margin-bottom:30px;" >
-      			 			<a href="article?idNoticia=${noticia.idNoticia}"> 
-	      			 			<h3 style="text-align: center;">${noticia.titol}</h3>
+      			 			<a class="black bold" href="article?idNoticia=${noticia.idNoticia}">
+	      			 			<h3>${noticia.titol}</h3>
 	      			 		</a>
 	      			 		<a href="article?idNoticia=${noticia.idNoticia}"> 
 	      			 			<img class="img-border" style="max-width:100%;width:100%; max-height:300px; height:auto; margin-bottom:10px;" src="${noticia.fotoUrl}">
 	      			 		</a>
-	      			 		<a href="article?idNoticia=${noticia.idNoticia}"> 
-	      			 			<p>${noticia.resum}</p>
+	      			 		<a class="black" href="article?idNoticia=${noticia.idNoticia}">
+	      			 			<p class="lines3">${noticia.resum}</p>
 	      			 		</a>
 	      			 	</div>  
 	      			 </c:forEach> 	

@@ -18,3 +18,33 @@ body{
     border: 3;
     solid: Black;
 }
+.black{
+    color: #333;
+    text-decoration: none;
+}
+.bold{
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+    height: 2.2em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.lines3{
+    text-align: center;
+    height: 4.2em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

@@ -1,12 +1,22 @@
+<!DOCTYPE html>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
 <%@ taglib prefix="x" uri="http://java.sun.com/jsp/jstl/xml" %>
+
+<link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"	rel="stylesheet">
 <link href="resources/css/general.css" rel="stylesheet" type="text/css">
-<link rel="icon" href="resources/mytheme/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+<head profile="http://www.w3.org/2005/10/profile">
+
+<link rel="icon"
+      type="image/png"
+      href="resources/logoCic.png" />
+</head>
 
 <div class="navbar navbar-inverse" style="margin-top:15px;" >	
 
