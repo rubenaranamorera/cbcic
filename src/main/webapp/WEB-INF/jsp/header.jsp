@@ -18,21 +18,21 @@
       href="resources/logoCic.png" />
 </head>
 
-<div class="navbar navbar-inverse" style="margin-top:15px;" >	
+<div class="navbar navbar-inverse" style="margin-top:15px;" >
 
-	<div class="navbar-header">    
+	<div class="navbar-header">
 		<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </button>		
+        </button>
         <a class="navbar-brand" href="home"><img style="max-width:50px; margin-top: -15px;" src="resources/img/general/logoCic.jpg"></a>
-	</div>	
+	</div>
 
 		<div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
-		
-		
+
+
             <ul class="nav navbar-nav">
               <li id="noticiesNav"><a href="noticies">Notícies</a></li>
 	            <li id="croniquesNav"><a href="croniques">Cròniques</a></li>
@@ -41,33 +41,30 @@
 	              <ul class="dropdown-menu" role="menu">
 	                <li><a href="senioramasc">Sènior A Masc</a></li>
 	                <li><a href="seniorbmasc">Sènior B Masc</a></li>
-	                <li><a href="juniormasc">Júnior Masc</a></li>
+	                <li><a href="sots21masc">Sots-21 Masc</a></li>
 	                <li><a href="seniorafem">Sènior A Fem</a></li>
 	                <li><a href="seniorbfem">Sènior B Fem</a></li>
-	                <li><a href="sots21fem">Sots-21 Fem</a></li>
 	                <li><a href="veterans">Veterans</a></li>
 	              </ul>
 	            </li>
-	            <%--li id="horarisNav"><a href="horaris">Horaris</a></li>
-	            <li id="resultatsNav"><a href="resultats">Resultats</a></li --%>
 	            <li id="contactaNav"><a href="contacta">Contacta</a></li>
 	            <li id="onsomNav"><a href="onsom">On Som</a></li>
 	            <li id="historiaNav"><a href="historia">Història</a></li>
             </ul>
             <div style="float: right; margin-right: 10px; margin-top: 10px;">
 	        	<a href="https://twitter.com/ClubBasquetCIC" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ClubBasquetCIC</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>          
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
            	</div>
-      
+
       </div>
-         
-</div>    
+
+</div>
 
 <script>
 	$(document).ready(function(){
-		 var id = ${navActive};   
+		 var id = ${navActive};
 		 $(id).addClass('active');
-	}); 
+	});
 </script>
 
 <script src="http://code.jquery.com/jquery.js"></script>

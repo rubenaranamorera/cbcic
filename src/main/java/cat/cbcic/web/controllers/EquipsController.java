@@ -1,39 +1,38 @@
 package cat.cbcic.web.controllers;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-
 import cat.cbcic.web.lao.LAOEquips;
 import cat.cbcic.web.lao.LAOJugadors;
 import cat.cbcic.web.lao.LAOStaff;
 import cat.cbcic.web.models.Equip;
 import cat.cbcic.web.models.Jugador;
 import cat.cbcic.web.models.StaffMember;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.util.List;
 
 @Controller
 public class EquipsController {
-	
-	@Autowired 
+
+	@Autowired
 	private LAOEquips laoEquips;
-	
-	@Autowired 
+
+	@Autowired
 	private LAOJugadors laoJugadors;
-	
-	@Autowired 
+
+	@Autowired
 	private LAOStaff laoStaff;
 
 	@RequestMapping("/senioramasc")
-	public String senioramasc (Model model){		
+	public String senioramasc (Model model){
 		model.addAttribute("navActive", "equipsNav");
-		model = getInfo(model, LAOEquips.EQUIP_SENIOR_A_MASC);		
-		return "equips";		
+		model = getInfo(model, LAOEquips.EQUIP_SENIOR_A_MASC);
+		return "equips";
 	}
-	
-		
+
+
 	private Model getInfo(Model m, int idEquip) {
 		Equip equip = laoEquips.getEquipById(idEquip);
 		List<Jugador> jugadorsList = laoJugadors.getJugadorsByEquip(idEquip);
@@ -43,47 +42,40 @@ public class EquipsController {
 		m.addAttribute("staffMembersList", staffMembersList);
 		return m;
 	}
-	
+
 	@RequestMapping("/seniorbmasc")
 	public String seniorbmasc (Model model) {
 		model.addAttribute("navActive", "equipsNav");
 		model = getInfo(model, LAOEquips.EQUIP_SENIOR_B_MASC);
 		return "equips";
 	}
-	
-	@RequestMapping("/juniormasc")
-	public String juniormasc(Model model) {
+
+	@RequestMapping("/sots21masc")
+	public String sots21masc(Model model) {
 		model.addAttribute("navActive", "equipsNav");
-		model = getInfo(model, LAOEquips.EQUIP_JUNIOR_MASC);
-		return "equips";		
+		model = getInfo(model, LAOEquips.EQUIP_SUB21_MASC);
+		return "equips";
 	}
-	
+
 	@RequestMapping("/seniorafem")
 	public String seniorafem(Model model) {
 		model.addAttribute("navActive", "equipsNav");
 		model = getInfo(model, LAOEquips.EQUIP_SENIOR_A_FEM);
-		return "equips";		
+		return "equips";
 	}
-	
+
 	@RequestMapping("/seniorbfem")
 	public String seniorbfem(Model model) {
 		model.addAttribute("navActive", "equipsNav");
 		model = getInfo(model, LAOEquips.EQUIP_SENIOR_B_FEM);
-		return "equips";		
+		return "equips";
 	}
-	
-	@RequestMapping("/sots21fem")
-	public String sots25fem(Model model) {
-		model.addAttribute("navActive", "equipsNav");
-		model = getInfo(model, LAOEquips.EQUIP_SUB21_FEM);
-		return "equips";		
-	}
-	
+
 	@RequestMapping("/veterans")
 	public String veterans(Model model) {
 		model.addAttribute("navActive", "equipsNav");
 		model = getInfo(model, LAOEquips.EQUIP_VETERANS);
-		return "equips";		
+		return "equips";
 	}
 
 }

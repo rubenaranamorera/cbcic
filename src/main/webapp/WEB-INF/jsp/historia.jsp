@@ -11,11 +11,11 @@
 
 <title>CBCIC</title>
 
-<body>		
-	<div class="container main-container">	
-	
-		<%@ include file="header.jsp" %> 
-	      
+<body>
+	<div class="container main-container">
+
+		<%@ include file="header.jsp" %>
+
 	      <div class="container-fluid">
 	      	<div class="bs-docs-section">
 	      		<h2 id="historia" class="page-header" style="font-style:italic;">Història</h2>
@@ -226,6 +226,18 @@
                     C.B.CIC: @ClubBasquetCIC .
                 </p>
                 <p>
+                    <strong>La temporada 16/17</strong>
+                </p>
+                <p>
+                    Va ser un altre any de canvis. Vam canviar de poliesportiu i vam utilitzar el del Col·legi Jesús Maria Sant Gervasi. El Col.legi Sant Miquel va vincular-se
+                    amb la nostra entitat amb un equip femení, el Pre-mini. Per tant en total vam tenir 7 equips: 3 masculins i 4 femenins. El Sènior femení després d´una bona
+                    lluita final no va poder mantenir la 2a categoria catalana. El Sots-25 femení, després d´una bona Fase Prèvia, va participar en la Final Four de la Fase
+                    Final Territorial de Barcelona que es va jugar a Cubelles, assolint el 2n lloc després de perdre la final contra l´amfitrió, el C.B. Cubelles. El Sots-21
+                    femení després d´una bona Fase Prèvia, va participar en la Fase Final Territorial de Barcelona i va quedar en 5è lloc. Els dos equips Sèniors masculins van
+                    realitzar una bona temporada, el Sènior A va quedar en 3r lloc i el Sots-25 en 5è lloc. El Júnior masculí va quedar en 1r lloc del seu grup en el Campionat
+                    Territorial de Barcelona Nivell B (no hi va haver Fase Final).
+                </p>
+                <p>
                     <strong>Palmarès</strong>
                 </p>
                 <p>
@@ -236,6 +248,12 @@
                 </p>
                 <p>
                     <strong>Any a any:</strong>
+                </p>
+                <p>
+                    <strong>2016:</strong>
+                    <ul>
+                        <li>Sots-25 Femení: 2n lloc al Campionat Territorial de Barcelona</li>
+                    </ul>
                 </p>
                 <p>
                     <strong>2015:</strong>
@@ -347,11 +365,11 @@
                     </ul>
                 </p>
 
-	      	</div>	            
+	      	</div>
 	      </div>
 	    <%@ include file="footer.jsp" %>
 	    </div> <!-- /container -->
-	
+
 </body>
 
 <script src="http://code.jquery.com/jquery.js"></script>
