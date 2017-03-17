@@ -8,7 +8,7 @@ raranamorera
 "joc per sempre"
 
 GMAIL
-clubbasquetcic@gmail.com	
+clubbasquetcic@gmail.com
 323cbcic323
 
 TWITTER
@@ -20,8 +20,12 @@ INSTAGRAM
 323cbcic323
 
 OPENSHIFT
-clubbasquetcic@gmail.com	
+clubbasquetcic@gmail.com
 323cbcic323
+
+aplicatiu fede
+cb.cic
+ac139055
 
 MySQL 5.5 database added.  Please make note of these credentials:
 
