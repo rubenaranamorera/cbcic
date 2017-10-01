@@ -41,7 +41,6 @@
 	              <ul class="dropdown-menu" role="menu">
 	                <li><a href="senioramasc">Sènior A Masc</a></li>
 	                <li><a href="seniorbmasc">Sènior B Masc</a></li>
-	                <li><a href="sots21masc">Sots-21 Masc</a></li>
 	                <li><a href="seniorafem">Sènior A Fem</a></li>
 	                <li><a href="seniorbfem">Sènior B Fem</a></li>
 	                <li><a href="veterans">Veterans</a></li>

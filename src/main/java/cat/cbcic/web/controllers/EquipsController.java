@@ -25,6 +25,16 @@ public class EquipsController {
 	@Autowired
 	private LAOStaff laoStaff;
 
+  private Model getInfo(Model m, int idEquip) {
+    Equip equip = laoEquips.getEquipById(idEquip);
+    List<Jugador> jugadorsList = laoJugadors.getJugadorsByEquip(idEquip);
+    List<StaffMember> staffMembersList = laoStaff.getStaffMembersByEquip(idEquip);
+    m.addAttribute("equip",equip);
+    m.addAttribute("jugadorsList",jugadorsList);
+    m.addAttribute("staffMembersList", staffMembersList);
+    return m;
+  }
+
 	@RequestMapping("/senioramasc")
 	public String senioramasc (Model model){
 		model.addAttribute("navActive", "equipsNav");
@@ -33,27 +43,10 @@ public class EquipsController {
 	}
 
 
-	private Model getInfo(Model m, int idEquip) {
-		Equip equip = laoEquips.getEquipById(idEquip);
-		List<Jugador> jugadorsList = laoJugadors.getJugadorsByEquip(idEquip);
-		List<StaffMember> staffMembersList = laoStaff.getStaffMembersByEquip(idEquip);
-		m.addAttribute("equip",equip);
-		m.addAttribute("jugadorsList",jugadorsList);
-		m.addAttribute("staffMembersList", staffMembersList);
-		return m;
-	}
-
 	@RequestMapping("/seniorbmasc")
 	public String seniorbmasc (Model model) {
 		model.addAttribute("navActive", "equipsNav");
 		model = getInfo(model, LAOEquips.EQUIP_SENIOR_B_MASC);
-		return "equips";
-	}
-
-	@RequestMapping("/sots21masc")
-	public String sots21masc(Model model) {
-		model.addAttribute("navActive", "equipsNav");
-		model = getInfo(model, LAOEquips.EQUIP_SUB21_MASC);
 		return "equips";
 	}
 
