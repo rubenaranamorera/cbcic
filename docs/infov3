@@ -1,0 +1,25 @@
+
+##### LOGIN #####
+oc login https://api.starter-us-east-1.openshift.com
+
+##### PORT-FORWARD ######
+oc port-forward mysql-3-mnzsm 3306 3306
+
+##### RECURSOS #####
+oc get all
+oc get pods
+
+##### DEPLOY (downtime required) #####
+clean install
+copiar WAR a cbcic-openshift
+push a master
+
+##### LOGIN A OPENSHIFT ####
+https://console.starter-us-east-1.openshift.com/console/
+Desescalar en applications -> deployment a 0
+Eliminar pod si fa falta
+Trnar a fer el deploymnet de la nova versio
+Escalar a 1
+
+
+
